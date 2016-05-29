@@ -1,0 +1,133 @@
+<%@ master language="C#" autoeventwireup="true"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+<head id="Head1" runat="server">
+<meta name='yandex-verification' content='6fedc432d578d1a1' />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+<link rel="stylesheet" href="css/style.css" type="text/css" >
+
+  <link href="~/css/main.css" rel="stylesheet" />
+<link rel="stylesheet" href="~/css/style.css" type="text/css" >
+    <title>СпецТехноРесурс</title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+<body>
+<form id="form1" runat="server">
+
+
+
+
+ 
+<table width="100%" height="264" border="0" cellspacing="0" cellpadding="0" class="maintable">
+  <tr>
+    <td width="50">&nbsp;</td>
+    <td width="450">&nbsp;</td>
+    <td width="200">&nbsp;</td>
+    <td width="170">&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="80" background="images/bg70.png">&nbsp;</td>
+    <td background="images/bg70.png">
+    
+    <div class="tdom">
+Торговый Дом
+</div>
+<div class="logo">
+СпецТехноРесурс
+</div>
+    
+    </td>
+    <td class="contacts" background="images/bg70.png">
+
+Тел/факс: (495) 979-3057<br />
+
+
+</td>
+    <td class="contacts" background="images/bg70.png">email: <a href="mailto:td@td-str.ru">td@td-str.ru</a><br />
+
+</td>
+    <td background="images/bg70.png">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="40">&nbsp;</td>
+    <td><div class="city">&nbsp;&nbsp; г. Москва</td>
+    <td><div class="home"><a href="/">На главную</a></a></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+
+
+
+
+<div class="menu">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td bgcolor="#336699"><a href=Default.aspx>О нас</a></td>
+    <td bgcolor="#338866"><a href=categ.aspx>Каталог</a></td>
+    <td bgcolor="#33aa66"><a href=search.aspx>Поиск</a></td>
+    <td bgcolor="#33cc66"><a href=clientage.aspx>Наши клиенты</a></td>
+  </tr>
+</table>
+</div>
+
+<div class="body">
+
+
+
+
+
+        <asp:ContentPlaceHolder id="BodyContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+ 
+
+
+
+
+
+</div>
+
+
+<div class="copy">
+&copy; 2012 Торговый Дом  «СпецТехноРесурс»
+</div>
+
+<!-- Yandex.Metrika counter -->
+<div style="display:none;"><script type="text/javascript">
+                               (function(w, c) {
+                                   (w[c] = w[c] || []).push(function() {
+                                       try {
+                                           w.yaCounter13208290 = new Ya.Metrika({ id: 13208290, enableAll: true });
+                                       }
+                                       catch (e) { }
+                                   });
+                               })(window, "yandex_metrika_callbacks");
+</script></div>
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript" defer="defer"></script>
+<noscript><div><img src="//mc.yandex.ru/watch/13208290" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</form>
+</body>
+</html>
